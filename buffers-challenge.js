@@ -12,3 +12,9 @@ memoryContainer[2]=0x21;
 
 console.log(memoryContainer.toString("utf-8"));
 // above line prints Hi!
+
+
+// Also we can use Buffer from
+mysecondContainer = Buffer.from([0x48,0x69,0x21]);
+
+console.log(mysecondContainer.toString("utf-8"));
