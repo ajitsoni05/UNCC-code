@@ -1,0 +1,15 @@
+file system can use three types of API
+in node js , we can use
+- promises API
+- call back API
+- synchronous API
+
+these ways do the same thing (for ex deleting a file , creating a file)
+
+the question aries , how and which api should we use 
+
+- for 90 percent of the time , we can use promises api 
+- when we want maximum performance , we can use the callback api ( faster than the promises api)
+- try to stay away from synchronous api as much as possible
+
+- When we use synchronous api , we are actually blocking the main thread
