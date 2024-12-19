@@ -1,0 +1,9 @@
+- hard drive consists of various sequences of bytes
+- os runs on top of hard drive
+- Node js is one of the process running 
+- When dealing with files with the node ,it actually talks to os using system calls
+For example, when we are opening the file . node js calls open() system-call(os command) to os which in turns find the file and open the file, gets the bytes 
+and opens it 
+- Nodejs using Libuv calls the open() system call
+- rename() system call to rename the file (these all calls are being done using Libuv library by node js)
+- Threadpool libuv 
