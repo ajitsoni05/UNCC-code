@@ -1,0 +1,7 @@
+Some random text!
+
+
+each character is represented using eight bits
+
+S: 0011 1111
+o: 1111 0101

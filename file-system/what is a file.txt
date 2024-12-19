@@ -1,0 +1,6 @@
+- File is a sequence of bits.
+- Each sequence of bits might mean different based on the type of the file , text or image
+- Everything on computer is a file ( flash disk, hard drive)
+- File represents diffferent things
+- there is a file data associated with a fike , name , protection of a file , loation of the file (filepath), type of the file (image ,text), timestamps (opened ,modified or created)
+- Whole hard drive is diviedd into sequence of bits , which are files
